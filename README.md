@@ -1,2 +1,2 @@
 # WDYM_SistemasInteligentes
-Proeycto desarrollado por Harold Mendoza 11541045
+Proyecto desarrollado por Harold Mendoza 11541045
