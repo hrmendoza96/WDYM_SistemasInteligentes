@@ -55,11 +55,11 @@ public class WDYM_Proyecto1_SistemasInteligentes {
                 }
             }
 
-            // cd..
+            // date
             if (comando.equals("date")) {
                 datecmd();
             }
-            // validar cd
+            // validar date
             for (int i = 0; i < arraycd.length; i++) {
                 if (comando.equals(arraycd[i])) {
                     Scanner sc3 = new Scanner(System.in);
