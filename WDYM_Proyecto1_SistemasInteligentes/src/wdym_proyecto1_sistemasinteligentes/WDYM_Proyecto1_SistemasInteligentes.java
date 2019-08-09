@@ -27,7 +27,7 @@ public class WDYM_Proyecto1_SistemasInteligentes {
         String comando = "";
         String[] arrayls = {"ks", "os", ";s", ",s", ".s", "lw", "lx", "la", "ld", "lz", "sl", ";a", ";d", ";w", ";x", ";z", "ka", "kd", "kw", "kx", "kz", "ma",
             "md", "mw", "mx", "mz", "oa", "od", "ow", "ox", "oz", ",a", ",d", ",w", ",x", ",z", ".a", ".d", ".w", ".x", ".z"};
-        String[] arraycd = {"dqte", "dzte", "dste", "dwte", "dxte", "dare", "daee", "daye", "dage", "dafe", "dahe", "da5e", "da6e",
+        String[] arraydate = {"dqte", "dzte", "dste", "dwte", "dxte", "dare", "daee", "daye", "dage", "dafe", "dahe", "da5e", "da6e",
             "datw", "datd", "datr", "dat3", "dat4", "sate", "fate", "xate", "cate", "eate", "wate", "rate"};
         do {
             System.out.println("Insert Command:");
@@ -60,8 +60,8 @@ public class WDYM_Proyecto1_SistemasInteligentes {
                 datecmd();
             }
             // validar date
-            for (int i = 0; i < arraycd.length; i++) {
-                if (comando.equals(arraycd[i])) {
+            for (int i = 0; i < arraydate.length; i++) {
+                if (comando.equals(arraydate[i])) {
                     Scanner sc3 = new Scanner(System.in);
                     String answer = "";
                     System.out.println("Did You Mean: \"date..\" [y]es or [n]o?");
